@@ -5,9 +5,10 @@
 
 ### Features
 
+- [x] Conexão WebSocket dos usuários ao chat.
+- [x] Broadcast das mensagens.
+- [x] Lista dos usuários conectados.
 <!-- - [x] Conexão ao banco MySQL e recuperação de dados.
-- [x] Implementação do consign (routes, models e modules).
-- [x] Classes DAO.
 - [x] Validação e Recuperação de dados nas views (Express-validator).
 - [x] Design Pattern MVC.
 - [x] Criação, listagem e home funcionais. -->
@@ -29,9 +30,9 @@ $ git clone <https://github.com/dircksen/MultiroomChat.git>
 $ npm install
 
 # Execute a aplicação em modo de desenvolvimento
-$ nodemon index
+$ nodemon app
 
-# O servidor inciará na porta:3000 - acesse <http://localhost:3000>
+# O servidor inciará na porta:80 - acesse <http://localhost>
 ```
 
 ### 🛠 Tecnologias
@@ -40,8 +41,9 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 - [Express](https://expressjs.com/)
 - [Node.js](https://nodejs.org/en/)
-- [MySQL](https://www.mysql.com/)
+- [MongoDB](https://www.mongodb.com/)
 - [EJS](https://ejs.co/)
+- [Socket.io](https://socket.io/)
 
 ### Autor
 ---
